@@ -1,0 +1,32 @@
+.chatInput {
+  display: flex;
+}
+
+.chatInput__message {
+  border: 0;
+  border-bottom: 3px solid var(--P);
+  border-radius: var(--RadiusM);
+  padding: var(--SpacingM) var(--SpacingL);
+  margin: 1vw;
+  width: 90%;
+  font-size: var(--FontM);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.chatInput__send {
+  margin: 1vw;
+  margin-left: 0;
+  border: none;
+  border-radius: var(--RadiusM);
+  width: 10%;
+  padding: 0;
+  background: var(--T3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
