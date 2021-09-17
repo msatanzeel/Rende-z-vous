@@ -1,4 +1,4 @@
-# Omeet
+# Rende-z-vous
 A realtime chat and video conference application.
 [Link to the project](https://o-meet.herokuapp.com/)
 
